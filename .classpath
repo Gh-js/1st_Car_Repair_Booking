@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="car_center/" kind="src" path="car_repair_booking_system/src"/>
+	<classpathentry kind="src" path="car_repair_booking_system/src/car_center"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
