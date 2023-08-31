@@ -5,7 +5,7 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JTabbedPane;
 
-public class CarManager extends JFrame {
+public class CarManager extends JFrame { //관리자 메인화면
 
 	
 	private JTabbedPane jtp;
@@ -15,12 +15,12 @@ public class CarManager extends JFrame {
 		jtp=new JTabbedPane();
 		
 		//상단 탭
-		CarManagerTap1 cmt1=new CarManagerTap1(); 
-		CarManagerTap2 cmt2=new CarManagerTap2(); 
-		CarManagerTap3 cmt3=new CarManagerTap3(); 
-		CarManagerTap4 cmt4=new CarManagerTap4(); 
-		CarManagerTap5 cmt5=new CarManagerTap5(); 
-		CarManagerTap6 cmt6=new CarManagerTap6(); 
+		CarManagerTap cmt1=new CarManagerTap(); 
+		InventoryManagerTap cmt2=new InventoryManagerTap(); 
+		OrderManagerTap cmt3=new OrderManagerTap(); 
+		BookingManagerTap cmt4=new BookingManagerTap(); 
+		CalculateTap cmt5=new CalculateTap(); 
+		MyInformationTap cmt6=new MyInformationTap(); 
 		
 		jtp.add(cmt1,"차 량 관 리");
 		jtp.add(cmt2,"재 고 관 리");

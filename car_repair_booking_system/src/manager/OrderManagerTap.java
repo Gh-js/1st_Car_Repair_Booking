@@ -4,9 +4,9 @@ import java.awt.Color;
 
 import javax.swing.JPanel;
 
-public class CarManagerTap3 extends JPanel{
+public class OrderManagerTap extends JPanel{
 	
-	public CarManagerTap3() {
+	public OrderManagerTap() {
 		
 	}
 

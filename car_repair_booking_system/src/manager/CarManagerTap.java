@@ -11,12 +11,12 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-public class CarManagerTap1 extends JPanel {
+public class CarManagerTap extends JPanel { //차량관리
 	
 	private JTable carTable;
     private JScrollPane scrollPane;
 
-    public CarManagerTap1() {
+    public CarManagerTap() {
         setLayout(new BorderLayout());
 
         String[] columnNames = {"차량번호", "모델명", "수리 내역", "입고일", "출고일", "비고"};
