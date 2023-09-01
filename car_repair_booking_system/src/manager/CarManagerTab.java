@@ -1,11 +1,8 @@
 package manager;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Font;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
 //import java.awt.Color;
 //
 import javax.swing.JPanel;
