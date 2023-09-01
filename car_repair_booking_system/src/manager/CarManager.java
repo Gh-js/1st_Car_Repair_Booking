@@ -5,7 +5,7 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JTabbedPane;
 
-public class CarManager extends JFrame {
+public class CarManager extends JFrame {//
 
 	
 	private JTabbedPane jtp;
