@@ -15,7 +15,7 @@ public class CarManager extends JFrame { //관리자 메인화면
 		jtp=new JTabbedPane();
 		
 		//상단 탭
-		CarManagerTap cmt1=new CarManagerTap(); 
+		CarManagerTab cmt1=new CarManagerTab(); 
 		InventoryManagerTap cmt2=new InventoryManagerTap(); 
 		OrderManagerTap cmt3=new OrderManagerTap(); 
 		BookingManagerTap cmt4=new BookingManagerTap(); 

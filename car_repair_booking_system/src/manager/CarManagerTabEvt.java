@@ -4,10 +4,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CarManagerTabEvt implements ActionListener {
-//	private CarManagerTab cmt;
+	private CarManagerTab cmt;
 	
-	public CarManagerTabEvt() {
-//		this.cmt=cmt;
+	public CarManagerTabEvt(CarManagerTab cmt) {
+		this.cmt=cmt;
 	}
 	
 	@Override

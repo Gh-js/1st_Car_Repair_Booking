@@ -6,6 +6,30 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class CarManagerSubWindowEvt implements ActionListener, MouseListener {
+	
+//	private CarManagerSubWindow cmsw;
+	
+	public CarManagerSubWindowEvt(/* CarManagerSubWindow cmsw */) {
+//		this.cmsw=cmsw;
+		
+	}
+	
+	public void setOneCarInfo() {
+		
+	}
+	
+	public CarManagerVO addCarInfo() {
+	
+		return null;
+	}
+	
+	public void modifyCarInfo() {
+		
+	}
+	
+	
+	
+	
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
