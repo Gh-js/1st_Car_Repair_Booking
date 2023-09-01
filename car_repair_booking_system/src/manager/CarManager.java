@@ -1,20 +1,9 @@
 package manager;
 
-import java.awt.Button;
 import java.awt.Font;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-
-import manager.BookingManagerTap;
-import manager.CalculateTap;
-import manager.InventoryManagerTap;
-import manager.MyInformationTap;
-import manager.OrderManagerTap;
 
 public class CarManager extends JFrame {
 
@@ -37,7 +26,7 @@ public class CarManager extends JFrame {
 		
 		
 		
-		setLayout(null);
+//		setLayout(null);
 		
 		jtp.add(cmt1,"차 량 관 리");
 		jtp.add(cmt2,"재 고 관 리");
@@ -45,6 +34,8 @@ public class CarManager extends JFrame {
 		jtp.add(cmt4,"예 약 관 리");
 		jtp.add(cmt5," 정    산 ");
 		jtp.add(cmt6,"내   정 보");
+		
+		add("Center",jtp);
 		
 		
 		//글씨
